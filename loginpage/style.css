@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:600px;
+    height:680px;
+    border-radius: 10px;
+    margin:20px;
+    background: rgba(255,255,255,0.3);
+    border:3px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(25px);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.370);
+}
+
+.container h1{
+   text-align:center;
+   color:#fff;
+   font-size: 55px;
+   margin-top:45px;
+   position:relative;
+
+}
+
+form{
+    margin-top:50px;
+    padding:35px;
+}
+
+form .form_control input{
+    padding:20px;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    font-size: 18px;
+    width:85%;
+    padding-left: 50px;
+    color:#fff;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin-bottom:35px;
+}
+
+.form_control i{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:20px;
+    font-size:18px;
+    color:#fff;
+}
+
+.check_forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#fff;
+    margin-top: 55px;
+}
+
+.check_forgot .check{
+    display: flex;
+}
+
+.check_forgot .check input{
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.check p{
+    font-size:18px;
+}
+.check_forgot a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#fff;
+}
+.check_forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn button{
+    width:60%;
+    padding:15px;
+    border-radius: 10px;
+    font-size: 20px;
+    border:none;
+    outline:none;
+    margin-top: 30px;
+    cursor:pointer;
+    background: #21a4f1;
+    color:#fff;
+    margin-left:110px;
+}
+
+.register_link{
+    margin-top: 40px;
+    text-align:center;
+    font-size: 18px;
+    color:#fff;
+}
+
+.register_link a{
+    color:#fff;
+}
+
+@media screen and (max-width:460px){
+    .check p{
+        font-size:14px;
+    }
+
+    .check_forgot a{
+        font-size: 14px;
+    }
+}
